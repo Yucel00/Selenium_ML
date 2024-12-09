@@ -39,6 +39,8 @@ while step < 10:
             living_room=int(room1[1])
             square_meter = int(re.sub(r'\D', '', square_meter))
             age = int(re.sub(r'\D', '', age))
+            floor=floor.replace(". Kat","")
+            
 
             # Bilgileri sözlüğe ekle
             ilan_bilgisi = {
